@@ -16,7 +16,7 @@ export const HeroSection = () => {
                 <p className='text-lg mt-4 mb-6 md:text-2xl'>Soy <span className='font-semibold text-violet-600'>
                     Programador junior 
                 </span>
-                , Vivo en Lima-Peru eh manejado y estudiado varios lenguajes y herramientas de programacion
+                , Vivo en Lima-Peru he manejado y estudiado varios lenguajes y herramientas de programacion
                 </p>
                 <Link
                     to="proyectos"

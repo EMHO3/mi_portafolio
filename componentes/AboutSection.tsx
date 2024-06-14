@@ -12,6 +12,8 @@ const skills=[
     {skill:"Github"},
     {skill:"Tailwind CSS"},
     {skill:"SQL"},
+    {skill:"WordPress"},
+
 
 ]
 
@@ -36,10 +38,10 @@ export const AboutSection = () => {
                         </p>                   
                 </div>
             </div>
-            <div className='md:w-1/2'>
+            <div className='md:w-1/2 lg:w-full'>
 
-                <h1 className="text-2xl font-bold mb-6">Mis Habilidades</h1>
-                <div className='flex flex-wrap flex-row justify-center md:justify-start'>
+                <h1 className="text-2xl font-bold mb-6 lg:text-center md:text-left lg:justify-content-center" >Mis Habilidades</h1>
+                <div className='flex flex-wrap flex-row justify-center md:justify-center lg:justify-center' >
                     {skills.map((item,idx)=>{
                         return <p key={idx }  className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold">{item.skill}</p>
                     })}

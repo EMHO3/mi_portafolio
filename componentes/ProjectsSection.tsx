@@ -7,7 +7,7 @@ const projects = [
     {
       name: "Billetera Digital",
       description:
-        "Un proyecto personal que es acerca de una billetera digital en el que puedes registrar tus gastos e ingresos, aqui use:PHP,LARAVEL 10 y Tailwind CSS ",
+        "Un proyecto personal que es acerca de una billetera digital en el que puedes registrar tus gastos e ingresos, aqui use:PHP,LARAVEL 10,REACT y Tailwind CSS ",
       image: "/billetera .png",
       github: "https://github.com/EMHO3/billetera-laravel10.git",
       link: "https://drive.google.com/file/d/1wQvlOlYjlEwTyu93Tu4DUy2cvZKefz4v/view?usp=sharing",
@@ -30,10 +30,18 @@ const projects = [
     {
         name: "Registos",
         description:
-          "Proyecto Personal sobre un CRUD basico en el que puedes registrar un articulo su descripcion y stock,aqui use:PHP,Laravel 10 y Tailwind CSS",
-        image: "/registros.png",
+          "Proyecto Personal sobre un CRUD basico en el que puedes registrar un articulo su descripcion y stock,aqui use:PHP,Laravel 10,REACT y Tailwind CSS",
+        image: "/laravelReact.jpg",
         github: "https://github.com/EMHO3/Laravel10-React.git",
         link: "https://drive.google.com/file/d/1JHDCVwGKPftCjDkm2dLcxFyiRBir6_yp/view?usp=sharing",
+      },
+      {
+        name: "WooComerce",
+        description:
+          "Proyecto de WooComerce usando WordPress y sus distintos plugins y temas especificos para el proyecto ",
+        image: "/Wordpress.jpg",
+        github: "https://github.com/EMHO3",
+        link: "https://drive.google.com/file/d/1rGL78LGl2dJYs7zpO7dy6gs3pUs-elxz/view?usp=sharing",
       },
   ]
 export const ProjectsSection = () => {
@@ -49,8 +57,8 @@ export const ProjectsSection = () => {
                             <Image
                             src={project.image}
                             alt=""
-                            width={1000}
-                            height={1000}
+                            width={800}
+                            height={800}
                             className="rounded-xl shadow-xl hover:opacity-70"
                         />
                         </Link>
