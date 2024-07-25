@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import { link } from 'fs'
 
 const projects = [
     {
@@ -43,6 +44,20 @@ const projects = [
         github: "https://github.com/EMHO3",
         link: "https://drive.google.com/file/d/1rGL78LGl2dJYs7zpO7dy6gs3pUs-elxz/view?usp=sharing",
       },
+      {
+       name:"Bienes raices", 
+       description:"Proyecto personal sobre una pagina de bienes raices en el que puedes crear distintos tipos de cosas y tambien crear permisos y asignarlos a ciertos roles como CEO,Admin,etc, aqui use:PHP,Laravel 10,Bootstrap y plantillas",
+       image:"/realstate.jpg",
+       github:"https://github.com/EMHO3/RealState",
+       link:"https://drive.google.com/file/d/1F5Qkt-dRpJXdmg9wLXK5sDoWDliOcEI2/view?usp=sharing",
+      },
+      {
+       name:"Libreria", 
+       description:"Proyecto personal sobre una pagina acerca de libros de programacion y otros aqui puedes registrarte como admin y poder crear modificar y eliminar libros , aqui use:PHP puro y MYSQL",
+       image:"/libreria.jpg",
+       github:"https://github.com/EMHO3/php-mysql",
+       link:"https://drive.google.com/file/d/1VRD0H4VYNYh4-DZFhM_oWvoV1J356csr/view?usp=sharing",
+      }
   ]
 export const ProjectsSection = () => {
   return (
