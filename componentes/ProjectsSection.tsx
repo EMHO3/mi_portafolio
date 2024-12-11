@@ -57,6 +57,18 @@ const projects = [
        image:"/libreria.jpg",
        github:"https://github.com/EMHO3/php-mysql",
        link:"https://drive.google.com/file/d/1VRD0H4VYNYh4-DZFhM_oWvoV1J356csr/view?usp=sharing",
+      },
+      {
+        name:"ABM Electric Perú S.A.C", 
+        description:"Proyecto de wordpress de un sitio web con el tema DIVI para una clienta, hecho durante mis practicas con Roaner Group S.A.C ",
+        image:"/AbmElectricPeruSac.png",
+        link:"https://drive.google.com/file/d/1ncUiHldPUHQx5XS7GbQXfR5Uv8_5Z8GE/view?usp=drive_link",
+      },
+      {
+        name:"Web Spacio Design", 
+        description:"Proyecto de wordpress de un sitio web que hize a partir de una plantilla html que me dierion la cual convertí en un tema de wordpress en el que se puede personalizar varios bloques de la pagina de inicio, tambien tiene el puglin woocommerce",
+        image:"/SpacioDesign.png",
+        link:"https://drive.google.com/file/d/1JDX1p6_9gM6zT3nHeofHoKwwtJECv8P2/view?usp=sharing",
       }
   ]
 export const ProjectsSection = () => {
@@ -84,13 +96,14 @@ export const ProjectsSection = () => {
                       {project.description}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
-                      <Link href={project.github} target="_blank">
-                        <BsGithub
-                          size={30}
-                          className="hover:-translate-y-1 transition-transform cursor-pointer"
-                        />
-                      </Link>
-                     
+                      {project.github && (
+                        <Link href={project.github} target="_blank">
+                          <BsGithub
+                            size={30}
+                            className="hover:-translate-y-1 transition-transform cursor-pointer"
+                          />
+                        </Link>
+                      )}
                     </div>
                   </div>
                     </div>
