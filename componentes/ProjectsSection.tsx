@@ -73,21 +73,21 @@ const projects = [
       {
         name:"API con DjangoREST Framework", 
         description:"Proyecto de una api de citas medicas usando DjangoREST Framework en el que puedes hacer distintos cruds como paciente o doctor mas una capa de autenticaion como admin  ",
-        image:"/DJANGO-REST.png",
+        image:"/djangorest.JPG",
         github:"https://github.com/EMHO3/curso-Django",
         link:"https://drive.google.com/file/d/1jpcPt4ijIg8kTETv25W1ew9WG9p_sCnF/view?usp=sharing",
       },
       {
         name:"Proyecto personal con react", 
         description:"Proyecto de react en el que puedes poner varias tareas y marcarlas como completads y/o eliminarlas ademas de un filtro en el buscador",
-        image:"/REACT-PLATZI.png",
+        image:"/todoreact.JPG",
         github:"https://github.com/EMHO3/todo_react",
         link:"https://drive.google.com/file/d/1gKDi-lGGh1L6TQEQJr-FO5wYex7fbfwS/view?usp=sharing",
       },
       {
         name:"Juegos con react", 
-        description:"Proyecto de react sobre el clasico juego de michi y otro 2do juego sobre un seguidor de mouse",
-        image:"/MICHI-REACT.png",
+        description:"Proyecto de react sobre el clasico juego de michi y otro 2 do juego sobre un seguidor de mouse",
+        image:"/michireact.PNG",
         github:"https://github.com/EMHO3/practicando_React",
         link:"https://drive.google.com/file/d/1JxxtzII4fX9b1jkfyXXSgIvEUiRlkr0r/view?usp=sharing",
       }
