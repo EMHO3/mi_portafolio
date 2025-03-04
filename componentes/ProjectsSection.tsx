@@ -5,6 +5,39 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 import { link } from 'fs'
 
 const projects = [
+  {
+    name:"Juegos con react", 
+    description:"Proyecto de react sobre el clasico juego de michi y otro 2 do juego sobre un seguidor de mouse",
+    image:"/michireact.PNG",
+    github:"https://github.com/EMHO3/practicando_React",
+    link:"https://drive.google.com/file/d/1JxxtzII4fX9b1jkfyXXSgIvEUiRlkr0r/view?usp=sharing",
+  },
+  {
+    name:"ABM Electric Perú S.A.C", 
+    description:"Proyecto de wordpress de un sitio web con el tema DIVI para una clienta, hecho durante mis practicas con Roaner Group S.A.C ",
+    image:"/AbmElectricPeruSac.png",
+    link:"https://drive.google.com/file/d/1ncUiHldPUHQx5XS7GbQXfR5Uv8_5Z8GE/view?usp=drive_link",
+  },
+  {
+    name:"Web Spacio Design", 
+    description:"Proyecto de wordpress de un sitio web que hize a partir de una plantilla html que me dierion la cual convertí en un tema de wordpress en el que se puede personalizar varios bloques de la pagina de inicio, tambien tiene el puglin woocommerce",
+    image:"/SpacioDesign.png",
+    link:"https://drive.google.com/file/d/1JDX1p6_9gM6zT3nHeofHoKwwtJECv8P2/view?usp=sharing",
+  },
+  {
+    name:"API con DjangoREST Framework", 
+    description:"Proyecto de una api de citas medicas usando DjangoREST Framework en el que puedes hacer distintos cruds como paciente o doctor mas una capa de autenticaion como admin  ",
+    image:"/djangorest.JPG",
+    github:"https://github.com/EMHO3/curso-Django",
+    link:"https://drive.google.com/file/d/1jpcPt4ijIg8kTETv25W1ew9WG9p_sCnF/view?usp=sharing",
+  },
+  {
+    name:"Proyecto personal con react", 
+    description:"Proyecto de react en el que puedes poner varias tareas y marcarlas como completads y/o eliminarlas ademas de un filtro en el buscador",
+    image:"/todoreact.JPG",
+    github:"https://github.com/EMHO3/todo_react",
+    link:"https://drive.google.com/file/d/1gKDi-lGGh1L6TQEQJr-FO5wYex7fbfwS/view?usp=sharing",
+  },
     {
       name: "Billetera Digital",
       description:
@@ -58,39 +91,6 @@ const projects = [
        github:"https://github.com/EMHO3/php-mysql",
        link:"https://drive.google.com/file/d/1VRD0H4VYNYh4-DZFhM_oWvoV1J356csr/view?usp=sharing",
       },
-      {
-        name:"ABM Electric Perú S.A.C", 
-        description:"Proyecto de wordpress de un sitio web con el tema DIVI para una clienta, hecho durante mis practicas con Roaner Group S.A.C ",
-        image:"/AbmElectricPeruSac.png",
-        link:"https://drive.google.com/file/d/1ncUiHldPUHQx5XS7GbQXfR5Uv8_5Z8GE/view?usp=drive_link",
-      },
-      {
-        name:"Web Spacio Design", 
-        description:"Proyecto de wordpress de un sitio web que hize a partir de una plantilla html que me dierion la cual convertí en un tema de wordpress en el que se puede personalizar varios bloques de la pagina de inicio, tambien tiene el puglin woocommerce",
-        image:"/SpacioDesign.png",
-        link:"https://drive.google.com/file/d/1JDX1p6_9gM6zT3nHeofHoKwwtJECv8P2/view?usp=sharing",
-      },
-      {
-        name:"API con DjangoREST Framework", 
-        description:"Proyecto de una api de citas medicas usando DjangoREST Framework en el que puedes hacer distintos cruds como paciente o doctor mas una capa de autenticaion como admin  ",
-        image:"/djangorest.JPG",
-        github:"https://github.com/EMHO3/curso-Django",
-        link:"https://drive.google.com/file/d/1jpcPt4ijIg8kTETv25W1ew9WG9p_sCnF/view?usp=sharing",
-      },
-      {
-        name:"Proyecto personal con react", 
-        description:"Proyecto de react en el que puedes poner varias tareas y marcarlas como completads y/o eliminarlas ademas de un filtro en el buscador",
-        image:"/todoreact.JPG",
-        github:"https://github.com/EMHO3/todo_react",
-        link:"https://drive.google.com/file/d/1gKDi-lGGh1L6TQEQJr-FO5wYex7fbfwS/view?usp=sharing",
-      },
-      {
-        name:"Juegos con react", 
-        description:"Proyecto de react sobre el clasico juego de michi y otro 2 do juego sobre un seguidor de mouse",
-        image:"/michireact.PNG",
-        github:"https://github.com/EMHO3/practicando_React",
-        link:"https://drive.google.com/file/d/1JxxtzII4fX9b1jkfyXXSgIvEUiRlkr0r/view?usp=sharing",
-      }
   ]
 export const ProjectsSection = () => {
   return (
