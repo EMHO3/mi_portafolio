@@ -38,6 +38,13 @@ const projects = [
     github:"https://github.com/EMHO3/todo_react",
     link:"https://drive.google.com/file/d/1gKDi-lGGh1L6TQEQJr-FO5wYex7fbfwS/view?usp=sharing",
   },
+  {
+    name:"Cronometro con react native", 
+    description:"Proyecto personal hecho con react native y optimazado para android y iOS simula un cronometro en el que tiene diferentes tiempos en diferentes secciones ",
+    image:"/POMODORO.jpg",
+    github:"https://github.com/EMHO3/react-native-pomodoro",
+    link:"https://drive.google.com/file/d/15NJ0bX7viOcBAwmr1uKbg9UaODKMWGkH/view?usp=sharing",
+  },
     {
       name: "Billetera Digital",
       description:
