@@ -41,7 +41,7 @@ const projects = [
   {
     name:"Cronometro con react native", 
     description:"Proyecto personal hecho con react native y optimazado para android y iOS simula un cronometro en el que tiene diferentes tiempos en diferentes secciones ",
-    image:"/POMODORO.jpg",
+    image:"/POMODORO.JPG",
     github:"https://github.com/EMHO3/react-native-pomodoro",
     link:"https://drive.google.com/file/d/15NJ0bX7viOcBAwmr1uKbg9UaODKMWGkH/view?usp=sharing",
   },
