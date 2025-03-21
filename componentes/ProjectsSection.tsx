@@ -41,9 +41,16 @@ const projects = [
   {
     name:"Cronometro con react native", 
     description:"Proyecto personal hecho con react native y optimazado para android y iOS simula un cronometro en el que tiene diferentes tiempos en diferentes secciones ",
-    image:"/POMODORO.JPG",
+    image:"/pomodoroemulador.JPG",
     github:"https://github.com/EMHO3/react-native-pomodoro",
-    link:"https://drive.google.com/file/d/15NJ0bX7viOcBAwmr1uKbg9UaODKMWGkH/view?usp=sharing",
+    link:"https://drive.google.com/file/d/1XZZyercYqeeSx4NSNRGgRibiLHKT1qqt/view?usp=sharing",
+  },
+  {
+    name:"Proyecto con API de la NASA", 
+    description:"Proyecto personal hecho con react native y que usa el API publica de la NASA en este proyecto se puedo observar la imagen del dia actual publicado por la nasa y de los 5 dias anteriores",
+    image:"/apinasa.JPG",
+    github:"https://github.com/EMHO3/apinasa-reactnative",
+    link:"https://drive.google.com/file/d/1Xgt4-r2nFTUeJzxUincPvUqHNsavDpKF/view?usp=sharing",
   },
     {
       name: "Billetera Digital",
