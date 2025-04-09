@@ -13,6 +13,13 @@ const projects = [
     link:"https://drive.google.com/file/d/1JxxtzII4fX9b1jkfyXXSgIvEUiRlkr0r/view?usp=sharing",
   },
   {
+    name:"Crud basico con MongoDB", 
+    description:"Proyecto sobre un CRUD hecho con php puro en el que uso MongoDb como base de dato",
+    image:"/mongocrud.png",
+    github:"https://github.com/EMHO3/crud-php-mongodb",
+    link:"https://drive.google.com/file/d/1-ctozcdO43_XQcvOeTitKfCWE8A84ncl/view?usp=sharing",
+  },
+  {
     name:"ABM Electric Perú S.A.C", 
     description:"Proyecto de wordpress de un sitio web con el tema DIVI para una clienta, hecho durante mis practicas con Roaner Group S.A.C ",
     image:"/AbmElectricPeruSac.png",
