@@ -20,6 +20,28 @@ const projects = [
     link:"https://drive.google.com/file/d/1-ctozcdO43_XQcvOeTitKfCWE8A84ncl/view?usp=sharing",
   },
   {
+    name:"API con NodeJS y Postgress Dockerizado", 
+    description:"Proyecto sobre un API de gestion de tienda hecha con NodeJS y postgresql que esta dockerizado con una imagen de postgress",
+    image:"/NODEJSAPI.jpg",
+    github:"https://github.com/EMHO3/NODE-postgresql",
+    link:"https://drive.google.com/file/d/1S3fFfc4CkTdNe1TDsUf-BgVo6zpmgUSK/view?usp=sharing",
+  },
+  {
+    name:"TODOAPP con angular", 
+    description:"clases introductoria a framework de angular sobre su sintacis y orden de sus archivos",
+    image:"/TODOAPPANGULAR.jpg",
+    github:"https://github.com/EMHO3/Curso-ANGULAR",
+    link:"https://drive.google.com/file/d/1SwYGIS3gu1RDXSZWKALqb8RZTmoDsjmC/view?usp=sharing",
+  },
+  {
+    name:"Tienda online con angular", 
+    description:"proyecto personal usando un api publica para la creacion de una tienda online basica hecho con angular",
+    image:"/EcommerceAngular.jpg",
+    github:"https://github.com/EMHO3/ECOMMERCE_angular",
+    link:"https://drive.google.com/file/d/1gZjn3Z4oVdcYOUsBUY3-aG18EicsJ1Wc/view?usp=sharing",
+  },
+  
+  {
     name:"ABM Electric Perú S.A.C", 
     description:"Proyecto de wordpress de un sitio web con el tema DIVI para una clienta, hecho durante mis practicas con Roaner Group S.A.C ",
     image:"/AbmElectricPeruSac.png",
