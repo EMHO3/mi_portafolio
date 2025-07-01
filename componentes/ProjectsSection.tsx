@@ -6,6 +6,13 @@ import { link } from 'fs'
 
 const projects = [
   {
+    name:"Laravel 11 fullStack", 
+    description:"Proyecto de Laravel 11 fullstack usando distintas librerias como: innertia,Permissions,SSR y usando react con typescript",
+    image:"/Laravel11.jpg",
+    github:"https://github.com/EMHO3/Laravel11-react",
+    link:"https://drive.google.com/file/d/19Xkl6oWn3li3qK7Y0PmMZSuJumyVTHT-/view?usp=sharing",
+  },
+  {
     name:"Juegos con react", 
     description:"Proyecto de react sobre el clasico juego de michi y otro 2 do juego sobre un seguidor de mouse",
     image:"/michireact.PNG",
